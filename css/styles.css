@@ -253,6 +253,7 @@ footer{
 .copy{
     text-align: center;
     color: #fff;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 @media (max-width:825px){
@@ -269,10 +270,27 @@ footer{
     .service{
         margin-top: 40px;
     }
+    footer img{
+        width: 40px;
+    }
+    .foot-text{
+    font-size: 20px;
+    }
+    .copy{
+        margin-top: 0;
+    }
+    .social-link{
+        font-size: 14px;
+    }
 }
-@media (max-width:500px){
+@media (max-width:580px){
   
     .hide-link{
         display: none;
     }
+    
+}@media (max-width:558px) {
+  .hero{
+    height: 70vh !important;
+  }   
 }
