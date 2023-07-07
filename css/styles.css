@@ -4,7 +4,7 @@
 body{
     margin: 0;
     width: 100%;
-    min-width: 570px;
+    min-width: 500px;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
@@ -272,10 +272,8 @@ footer{
     }
 }
 @media (max-width:500px){
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  
+    .hide-link{
+        display: none;
     }
 }
