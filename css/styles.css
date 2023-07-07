@@ -291,6 +291,6 @@ footer{
     
 }@media (max-width:558px) {
   .hero{
-    height: 70vh !important;
+    height: auto !important;
   }   
 }
